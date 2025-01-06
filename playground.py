@@ -7,7 +7,6 @@ from phi.tools.duckduckgo import DuckDuckGo
 from phi.playground import Playground, serve_playground_app
 from dotenv import load_dotenv
 
-
 load_dotenv()
 phi.api=os.getenv("PHI_KEY")
 
